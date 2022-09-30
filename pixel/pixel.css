@@ -1,0 +1,47 @@
+.pixel{
+    
+    width: 98%;
+    height: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 15px 10px 10px;
+    
+}
+
+.in{
+    background-color: rgb(56, 54, 54);
+    padding: 15px;
+    margin: 5px;
+    width: 280px;
+    height: 300px;
+    box-shadow: 5px 5px 0px rgb(250, 249, 249),
+                -5px -5px 0px rgb(147, 229, 235);
+    
+}
+
+.in > h2{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: -2px 3px rgb(44, 82, 204),
+                  2px -2px rgb(102, 230, 86);
+}
+
+.co{
+    background-color: rgb(56, 54, 54);
+    padding: 15px;
+    margin: 280px 5px 5px -80px;
+    width: 280px;
+    height: 300px;
+    box-shadow: 5px 5px 0px rgb(250, 249, 249),
+                -5px -5px 0px rgb(147, 229, 235);
+}
+
+.in, .co{
+    color: white;
+}
+
+.ilus{
+    
+    margin: 5px;
+}
