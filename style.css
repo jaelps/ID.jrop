@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    border: 0;
+}
 
+body{
+    width: 96%;
+    height: 90%;
+}
 .base{
     
     /*background-color: #070824;*/
-    background-image: linear-gradient(grey,#22234e);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -12,19 +19,22 @@
 
 
 .exemplos{
-    width: 98%;
+    background-color: grey;
+    width: 99.5%;
     height: 80%;
     display: flex;
     flex-wrap: nowrap;
-    margin: 10px 15px 10px 10px;
+    padding: 30px;
+
 }
 
 .exemplos_tex{
     background-color: white;
+    text-align: center;
     padding: 15px;
     margin: 5px;
     width: 200px;
-    height: 90px;
+    height: 70px;
     box-shadow: 5px 5px 0px black,
                 -5px -5px 0px black;
     
@@ -36,22 +46,55 @@
     font-size: 0.9rem;
 }
 
-.exemplos_tex > img {
-    width: 2px;
-}
-
 .exemplos_tex > p {
     font-size: 1rem;
     font-family: 'Press Start 2P', cursive;
+    margin: 15px;
 }
+
+.exemplos_sim > .fas{
+    margin: 10px;
+}
+
+.exemplos_nao > .fas{
+    margin: 10px;
+}
+
+.exemplos_sim:hover{
+    color: white;
+    background-color: black;
+}
+
+.exemplos_nao:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+.exemplos_tex > img {
+    width: 2px;
+    
+}
+
 
 .exemplos_tex-b{
     background-color: white;
     padding: 15px;
     margin: 180px 5px 1px 5px;
-    width: 200px;
-    height: 90px;
+    width: 300px;
+    height: 280px;
     box-shadow: 5px 5px 0px black,
                 -5px -5px 0px black;
+}
+
+.exemplo_ilus{
+    margin: 0 auto;
+}
+
+
+.exemplo_ilus > img{
+    margin: 5px 5px 5px 5px;
 }
 

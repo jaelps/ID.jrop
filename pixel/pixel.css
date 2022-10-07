@@ -1,18 +1,19 @@
 .pixel{
-    
+    background-color: grey;
     width: 98%;
     height: 80%;
     display: flex;
     flex-wrap: nowrap;
-    margin: 10px 15px 10px 10px;
+    margin: 0;
+    padding: 40px;
     
 }
 
 .in{
     background-color: rgb(56, 54, 54);
     padding: 15px;
-    margin: 5px;
-    width: 280px;
+    margin: 5px 5px 5px 5px;
+    width: 330px;
     height: 300px;
     box-shadow: 5px 5px 0px rgb(250, 249, 249),
                 -5px -5px 0px rgb(147, 229, 235);
@@ -23,15 +24,21 @@
     font-family: 'Press Start 2P', cursive;
     color: white;
     font-size: 1.5rem;
+    margin: 5px auto;
     text-shadow: -2px 3px rgb(44, 82, 204),
                   2px -2px rgb(102, 230, 86);
+
+}
+
+.in > p{
+    margin: 20px 7px 7px 7px;
 }
 
 .co{
     background-color: rgb(56, 54, 54);
     padding: 15px;
     margin: 280px 5px 5px -80px;
-    width: 280px;
+    width: 300px;
     height: 300px;
     box-shadow: 5px 5px 0px rgb(250, 249, 249),
                 -5px -5px 0px rgb(147, 229, 235);
@@ -42,6 +49,11 @@
 }
 
 .ilus{
-    
-    margin: 5px;
+    margin: auto 5px;
+}
+
+.ilus > img {
+    width: 750px;
+    height: 500px;
+    margin: auto auto;
 }
